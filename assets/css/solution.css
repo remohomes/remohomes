@@ -1,0 +1,15 @@
+/*  #############################  mobile ########################### */
+
+@media only screen and (max-width: 767px) {
+    .structureImg {
+        width: 10% !important;
+    }
+}
+
+/*  #############################  mobile ########################### */
+
+@media only screen and (max-width: 576px) {
+    .structureImg {
+        width: 20% !important;
+    }
+}

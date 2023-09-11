@@ -1,0 +1,101 @@
+.form-control {
+    width: 100% !important;
+    margin: 0 auto;
+    padding: 1rem !important;
+    background: rgba(60, 60, 60, 0.36) !important;
+    border: none;
+    border-radius: 20px !important;
+}
+
+.form-control::placeholder {
+    color: white !important;
+}
+
+.submitButton {
+    font-weight: 500 !important;
+    font-size: 20px !important;
+}
+
+.mediaImg {
+    width: 35px;
+}
+.mediaImg-2 {
+    width: 40px;
+}
+
+#rebuildImage {
+    border-radius: 20px 0px 0px 20px;
+}
+
+.contact {
+    border-right: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+section {
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    margin-top: -25px;
+}
+
+.mask {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.scrollImg img {
+    width: 25%;
+    /* height: 350px; */
+}
+
+
+@media only screen and (max-width: 1200px) {
+    iframe {
+        height: 530px;
+    }
+}
+
+/*  #############################  mobile ########################### */
+
+@media only screen and (max-width: 767px) {
+    .contact {
+        border-right: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    }
+
+    .fs-2-7vw {
+        font-size: 30px !important;
+    }
+
+    .fs-2vw {
+        font-size: 20px !important;
+    }
+
+    #rebuildImage {
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    iframe {
+        height: 330px;
+    }
+}
+
+/*  #############################  mobile ########################### */
+@media only screen and (max-width: 576px) {
+    .scrollImg img {
+        width: 100%;
+    }
+
+    .fs-30 {
+        font-size: 16px;
+    }
+
+    .mediaImg {
+        width: 30px;
+    }
+
+    iframe {
+        height: 250px;
+    }
+
+}
