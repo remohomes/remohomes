@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!---Coding By CodingLab | www.codinglabweb.com--->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Registration Form</title>
+    <!---Custom CSS File--->
+    <link rel="stylesheet" href="assets/css/formstyle.css" />
+  </head>
+ 
+  <body>
+    <section class="container">
+      <div class="section">
+        <nav>
+          <img src="/assets/img/remoicon.svg" class="logo">
+        </nav>
+      </div>
+      <br>
+      <header>Registration Form</header>
+      <form action="https://api.web3forms.com/submit" method="POST" class="form">
+        <input type="hidden" name="access_key" value="dbbc7fa1-5082-4efc-bee8-073ba64aff74">
+        <div class="input-box">
+          <label>Full Name</label>
+          <input type="text" name="Full Name" placeholder="" required />
+        </div>
+
+        <div class="input-box">
+          <label>Email Address</label>
+          <input type="text" name="Email" placeholder="" required />
+        </div>
+
+        <div class="column">
+          <div class="input-box">
+            <label>Company/Organization Name</label>
+            <input type="text" name="Company" placeholder="" />
+          </div>
+        </div>
+
+        <div class="column">
+            <div class="input-box">
+              <label>Position/Role</label>
+              <input type="text" name="Position" placeholder="" />
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="input-box">
+              <label>Area of Expertise/Specialization</label>
+              <input type="text" name="Expertise" placeholder="" />
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="input-box">
+              <label>Brief description of what you can offer</label>
+              <input type="text" name="Description" placeholder="" />
+            </div>
+          </div>
+
+        <div class="gender-box">
+          <h3>Are you a:</h3>
+          <div class="gender-option">
+            <div class="gender">
+              <input type="checkbox" id="check-male" name="Supplier" />
+              <label for="check-male">Supplier</label>
+            </div>
+            <div class="gender">
+              <input type="checkbox" id="check-female" name="Vendor" />
+              <label for="check-female">Vendor</label>
+            </div>
+            <div class="gender">
+              <input type="checkbox" id="check-other" name="Developer" />
+              <label for="check-other">Developer</label>
+            </div>
+            <div class="gender">
+                <input type="checkbox" id="check-other" name="Accredited Investor" />
+                <label for="check-other">Accredited Investor</label>
+              </div>
+              <div class="gender">
+                <input type="checkbox" id="check-other" name="Fellow Modular Manufacturer" />
+                <label for="check-other">Fellow Modular Manufacturer</label>
+              </div>
+              <div class="gender">
+                <input type="checkbox" id="check-other" name="Other" />
+                <label for="check-other">Other</label>
+              </div>
+          </div>
+        </div>
+
+        <div class="column">
+            <div class="input-box">
+              <label>Questions/Comments</label>
+              <input type="text" name="Comments" class="msg" placeholder="" />
+            </div>
+          </div>
+        <br>
+          <div class="gender">
+            <input type="checkbox" id="check-other" name="consent" />
+            <label for="check-other">I consent to ReMo Homes to contact me</label>
+          </div>
+
+        <button>Submit</button>
+      </form>
+    </section>
+  </body>
+</html>
