@@ -48,6 +48,18 @@ section {
     /* height: 350px; */
 }
 
+.container{
+    display: flex;
+    height: 20vh;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 2em;
+    padding: 20px;
+}
+.box img{
+    width: 200px;
+}
+
 
 @media only screen and (max-width: 1200px) {
     iframe {
@@ -97,5 +109,8 @@ section {
     iframe {
         height: 250px;
     }
-
+.container{
+    display: flex;
+    height: 35vh; 
+    }
 }
