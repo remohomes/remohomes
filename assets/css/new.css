@@ -111,6 +111,7 @@ section {
     }
 .container{
     display: flex;
-    height: 85vh; 
+    flex-wrap: wrap;
+    height: 100vh; 
     }
 }
