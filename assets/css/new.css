@@ -112,7 +112,7 @@ section {
 .container{
     display: flex;
     flex-wrap: wrap;
-    height: 35vh; 
+    height: 55vh; 
     }
     .box img{
     width: 150px;
