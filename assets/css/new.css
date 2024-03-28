@@ -109,10 +109,10 @@ section {
     iframe {
         height: 250px;
     }
-.container{
+    .container{
     display: flex;
     flex-wrap: wrap;
-    height: 55vh; 
+    height: 65vh; 
     }
     .box img{
     width: 150px;
