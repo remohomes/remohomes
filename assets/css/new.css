@@ -50,11 +50,11 @@ section {
 
 .container{
     display: flex;
-    height: 20vh;
+    height: 10vh;
     justify-content: center;
     flex-wrap: wrap;
     column-gap: 2em;
-    padding: 20px;
+    padding: 10px;
 }
 .box img{
     width: 200px;
